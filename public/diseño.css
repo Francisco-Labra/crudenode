@@ -1,0 +1,54 @@
+.example { background-color: rgb (255, 122 89) ; }
+html {height: 100%;}body {background-image: linear-gradient(to bottom right, #33475b, #00cca0, #FF77CC, rgb(255, 122, 89));}
+#campodetexto{
+    background-color: rgb(255, 0, 64);
+    border-radius: 12px;
+    border-color: aquamarine;
+    font-size: 22px;
+    color: cadetblue;
+    
+}
+font{
+    color: black;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 7px 4px 5px #33475b;
+    color: rgb(43, 226, 67);
+    font-size: 40px;
+    text-align: center;
+}
+
+#campotexto::placeholder{
+    color: azure;
+}
+#boton{
+    border-radius: 12px;
+    border-color: brown;
+    background-color: #0033CC;
+    color: aliceblue;
+}
+#href{
+    background-color: #cc0000;
+    color: darkgoldenrod;
+}
+#boton:hover{
+    background-color: #0033CC;
+}
+table{
+    background-color: #00cca0;
+    border: #33475b;
+    width: 20%;
+    text-align: center;
+}
+#Consultar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: cornflowerblue;
+    font-size: 20px;
+    color: chocolate;
+}
+.texto{
+    text-align: center;
+}

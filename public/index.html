@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="diseño.css" rel="stylesheet" />
+    <title>Personas</title>
+</head>
+<body>
+    <center>
+        <h1>Lista de personas</h1> 
+    <br>
+    <a id="Consultar" href="/getUsuario"> Obtener usuario </a>
+    <br><br><br>
+    <form method="post" action="/agregarUsuario">
+        <input type="Text" name="nombre">
+        <input id="boton" type="submit" value="Agregar Usuario">
+    </form>
+    <br>
+    <form method="post" action="/eliminarUsuario">
+        <input id="campotexto" type="Text" name="nombre">
+        <input id="boton" type="submit" value="Eliminar Usuario">
+    </form>
+    <br>
+    </form>
+    <form method="post" action="/cambiarUsuario">
+        <input id="campotexto" type="Text" name="nombre">
+        <input id="campotexto" type="Text" name="newnombre">
+        <input id="boton" type="submit" value="Cambiar Usuario">
+    </form>
+    <br>
+</center>
+</body>
+</html>
